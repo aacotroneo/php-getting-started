@@ -2,7 +2,8 @@
 
 require('../vendor/autoload.php');
 
-$app = new \Aac\App();
+$conf = include_once ('../installation/config.php');
 
 
-?>
+$app = new \Aac\App($conf);
+

@@ -19,7 +19,7 @@ class App {
         ));
 
         $app->register(new TwigServiceProvider(), array(
-            'twig.path' => __DIR__.'/views',
+            'twig.path' => __DIR__.'/Views',
         ));
 
 // Our web handlers
